@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="JBrowser:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JBrowser_jar</output-path>
+    <properties id="ant-preprocessing">
+      <options enabled="true" />
+    </properties>
+    <root id="archive" name="JBrowser.jar">
+      <element id="module-output" name="JBrowser" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../image4j.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

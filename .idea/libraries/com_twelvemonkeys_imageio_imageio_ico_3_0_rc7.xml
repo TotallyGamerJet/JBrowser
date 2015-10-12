@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="com.twelvemonkeys.imageio:imageio-ico:3.0-rc7" type="repository">
+    <properties maven-id="com.twelvemonkeys.imageio:imageio-ico:3.0-rc7" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/twelvemonkeys/imageio/imageio-ico/3.0-rc7/imageio-ico-3.0-rc7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/twelvemonkeys/imageio/imageio-core/3.0-rc7/imageio-core-3.0-rc7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/twelvemonkeys/common/common-io/3.0-rc7/common-io-3.0-rc7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/twelvemonkeys/common/common-lang/3.0-rc7/common-lang-3.0-rc7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/twelvemonkeys/common/common-image/3.0-rc7/common-image-3.0-rc7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
