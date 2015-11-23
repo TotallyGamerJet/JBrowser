@@ -3,7 +3,6 @@ package com.jbrowser;
 import com.jbrowser.core.JTab;
 import com.jbrowser.core.JWindow;
 import javafx.scene.control.MenuItem;
-import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
 import javafx.scene.web.WebEngine;
 

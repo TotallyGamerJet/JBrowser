@@ -78,6 +78,7 @@ public class FavIconHandler {
     public ImageView fetchFavIcon(final String browserLoc) {
         // fetch the favicon from cache if it is there.
         final String serverRoot = findRootLoc(browserLoc);
+        if(serverRoot.equals("file://")) return new ImageView(new Image("resources/unknown-document.png"));
         ImageView cachedFavicon = faviconCache.get(serverRoot);
         if (cachedFavicon != null) return cachedFavicon;
 

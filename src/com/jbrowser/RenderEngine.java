@@ -2,6 +2,7 @@ package com.jbrowser;
 
 import javafx.application.Platform;
 import javafx.collections.ObservableList;
+import javafx.scene.text.Text;
 import javafx.scene.web.WebEngine;
 import javafx.scene.web.WebHistory;
 import org.w3c.dom.Document;
@@ -33,6 +34,8 @@ public class RenderEngine {
     public String loadData(String URL) {
         if(URL.contains(" ")) {
             engine.load("http://www.google.com/search?q=" + URL.replace(" ", "+"));
+        } else if(URL.startsWith("file://") && URL.endsWith(".html")) {
+            engine.load(URL);
         } else {
             if (!URL.startsWith("http://") && !URL.startsWith("https://")) {
                 URL = "http://" + URL;
